@@ -15,6 +15,7 @@ Including another URLconf
 """
 from typing import Dict
 from django.contrib import admin
+from django.http import HttpRequest
 from django.urls import path
 from ninja import NinjaAPI
 
