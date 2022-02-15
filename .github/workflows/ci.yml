@@ -24,7 +24,8 @@ jobs:
       - name: Install dependencies
         run: |
           ${HOME}/.poetry/bin/poetry install
-      - name: Set up tmate session
+
+      - name: Setup tmate session
         uses : mxschmitt/action-tmate@v3
 
 
